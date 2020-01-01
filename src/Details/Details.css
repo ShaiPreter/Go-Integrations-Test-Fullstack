@@ -1,0 +1,25 @@
+/*
+ * Details css File
+*/
+
+.col1 {
+    display: inline-block;
+
+    width: 50%;
+}
+
+.col2 {
+    display: inline-block;
+
+    width: 50%;
+}
+
+.button {
+    position: relative;
+    left: 25%;
+    transform: translateX(-25%);
+}
+
+.Details {
+    /* propertys here */
+}

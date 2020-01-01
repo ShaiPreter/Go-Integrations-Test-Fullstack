@@ -1,0 +1,24 @@
+/*
+ * Product css File
+*/
+img {
+    display: block;
+    max-width: 230px;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.center {
+    display: block;
+    color: black;
+    text-align: center;
+}
+
+.Product {
+    /* propertys here */
+}

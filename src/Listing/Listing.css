@@ -1,0 +1,23 @@
+/*
+ * Listing css File
+*/
+.container {
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+
+    justify-content: center;
+
+}
+
+.box {
+
+    flex-grow: 1;
+
+}
+
+.Listing {
+    /* propertys here */
+}
