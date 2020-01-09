@@ -5,9 +5,9 @@ const app = express();
 const router = express.Router();
 
 
-const AWSaccessKeyId = 'AKIAJD63A3BR7DH2QTZQ';
-const AWSsecretAccessKey = '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';
-const AWSregion = 'us-east-2';
+const AWSaccessKeyId = 
+const AWSsecretAccessKey =
+const AWSregion = 
 AWS.config.update({
     accessKeyId: AWSaccessKeyId,
     secretAccessKey: AWSsecretAccessKey,
@@ -16,9 +16,9 @@ AWS.config.update({
 
 
 var docClient = new AWS.DynamoDB.DocumentClient();
-const table = 'GoIntegrationsTest';
-const key = "edd7fd7dac31cb81df28f91455649911";
-const pass = "330c304080eb8a70845b94ad0269bc50";
+const table = 
+const key =
+const pass = 
 
 const shopify = new Shopify({
     shopName: 'gointegrations-devtest.myshopify.com',
